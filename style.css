@@ -10,7 +10,7 @@ html, body {
 }
 
 body {
-    background: url(imagens/plumage-176723_960_720.jpg) no-repeat top center;
+    background: url(imagens/fundo-pluma.jpg) no-repeat top center;
     background-size: cover;
 }
 
@@ -37,7 +37,7 @@ section#telefone {
 
     height: 550px;
     width: 300px;
-    background: url(../imagens/frame-iphone.png) no-repeat top center;
+    background: url(./imagens/frame-iphone.png) no-repeat top center;
     background-size: contain;
 }
 
@@ -96,7 +96,7 @@ a#botao-linkedin {
     top: 81.5%;
     left: 41%;
     transform: translate(-50%, -50%);
-    background: url(imagens/logo-linkedin-icon-2048\ \(1\).png) no-repeat top center;
+    background: url(imagens/logo-linkedin.png) no-repeat top center;
     background-size: contain;
 }
 
@@ -116,6 +116,3 @@ a:hover {
     box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.164);
     transition: 0.2s;
 }
-
-
-
