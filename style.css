@@ -113,7 +113,7 @@ a#botao-git {
 }
 
 a:hover {
-    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.144);
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.164);
     transition: 0.2s;
 }
 
