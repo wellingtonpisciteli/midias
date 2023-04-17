@@ -10,7 +10,7 @@ html, body {
 }
 
 body {
-    background: black url(imagens/fundo-pluma.jpg) no-repeat top center;
+    background: black url(imagens/fundo-pluma.jpg) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
 }
