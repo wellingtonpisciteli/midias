@@ -10,27 +10,16 @@ html, body {
 }
 
 body {
-    background: url(imagens/fundo-pluma.jpg) no-repeat top center;
+    background: black url(imagens/fundo-pluma.jpg) no-repeat top center;
     background-size: cover;
 }
 
 main {
-    position: relative;
     height: 100vh;
 }
 
-section#fora-fone {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 300px;
-    height: 550px;
-    background-size: cover;
-}
-
 section#telefone {
-    position: relative;
+    position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -42,79 +31,86 @@ section#telefone {
 }
 
 iframe#tela {
-    position: relative;
-    left: 11.8%;
-    top: 13.2%;
-    width: 232px;
-    height: 355px;
+    position: absolute;
+    left: 11.4%;
+    top: 13%;
+
+    width: 233px;
+    height: 356px;
 }
 
 section#botoes {
     position: absolute;
     top: 77.8%;
-    left: 11.8%;
+    left: 11.5%;
+
     width: 232px;
     height: 55px;
-    background: red no-repeat;
+    background: rgba(245, 0, 135, 0.418) no-repeat;
     background-size: contain;
 }
 
 a#botao-home {
     position: absolute;
+    top: 93.5%;
+    left: 50.4%;
+    transform: translate(-50%, -50%);
+
     border-radius: 50%;
     width: 42px;
     height: 42px;
-    top: 50.5%;
-    left: 50.4%;
-    transform: translate(-50%, -50%);
     background: url(imagens/logo-home.jpg) no-repeat top center;
     background-size: contain;
 }
 
 a#botao-face {
     position: absolute;
-    border-radius: 13px;
-    width: 46px;
-    height: 39px;
     top: 50.5%;
     left: 87%;
     transform: translate(-50%, -50%);
+
+    border-radius: 13px;
+    width: 46px;
+    height: 39px;
     background: url(imagens/logo-facebook.jpg) no-repeat top center;
     background-size: contain;
 }
 
 a#botao-insta {
     position: absolute;
-    border-radius: 13px;
-    width: 46px;
-    height: 39px;
     top: 50.5%;
     left: 62%;
     transform: translate(-50%, -50%);
+
+    border-radius: 13px;
+    width: 46px;
+    height: 39px;
     background: url(imagens/logo-instagram.jpg) no-repeat top center;
     background-size: contain;
 }
 
 a#botao-linkedin {
     position: absolute;
-    border-radius: 18px;
-    width: 46px;
-    height: 44px;
     top: 50.5%;
     left: 36%;
     transform: translate(-50%, -50%);
+
+    border-radius: 18px;
+    width: 46px;
+    height: 44px;
     background: url(imagens/logo-linkedin.png) no-repeat top center;
     background-size: contain;
 }
 
 a#botao-git {
     position: absolute;
-    border-radius: 13px;
-    width: 46px;
-    height: 39px;
     top: 50.5%;
     left: 12%;
     transform: translate(-50%, -50%);
+
+    border-radius: 13px;
+    width: 46px;
+    height: 39px;
     background: url(imagens/logo-github.jpg) no-repeat top center;
     background-size: contain;
 }
