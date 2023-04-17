@@ -12,6 +12,7 @@ html, body {
 body {
     background: black url(imagens/fundo-pluma.jpg) no-repeat top center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 main {
