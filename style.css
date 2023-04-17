@@ -10,7 +10,7 @@ html, body {
 }
 
 body {
-    background: black url(imagens/fundo-pluma.jpg) no-repeat center center;
+    background: black url(imagens/fundo-pluma.jpg) no-repeat top center;
     background-size: cover;
 }
 
@@ -28,7 +28,6 @@ section#telefone {
     width: 300px;
     background: url(./imagens/frame-iphone.png) no-repeat top center;
     background-size: contain;
-    background-attachment: fixed;
 }
 
 iframe#tela {
