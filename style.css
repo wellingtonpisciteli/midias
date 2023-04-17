@@ -12,9 +12,6 @@ html, body {
 body {
     background: black url(imagens/fundo-pluma.jpg) no-repeat center center;
     background-size: cover;
-    background-attachment: static;
-    height: 100vh;
-    width: 100vw;
 }
 
 main {
@@ -31,6 +28,7 @@ section#telefone {
     width: 300px;
     background: url(./imagens/frame-iphone.png) no-repeat top center;
     background-size: contain;
+    background-attachment: fixed;
 }
 
 iframe#tela {
