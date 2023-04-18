@@ -32,7 +32,7 @@ section#telefone {
 
 iframe#tela {
     position: absolute;
-    left: 11.4%;
+    left: 11.2%;
     top: 13%;
 
     width: 233px;
@@ -42,9 +42,9 @@ iframe#tela {
 section#botoes {
     position: absolute;
     top: 77.8%;
-    left: 11.5%;
-
-    width: 232px;
+    left: 11.4%;
+    
+    width: 233px;
     height: 55px;
     background: rgba(245, 0, 135, 0.418) no-repeat;
     background-size: contain;
